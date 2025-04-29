@@ -24,27 +24,12 @@ La estructura del repositorio está organizada por secciones, cada una con su pr
 petshop/
 │
 ├── assets/
-│   ├── css/
 │   │   ├── style.css
 │   │   ├── home.css
 │   │   ├── catalog.css
 │   │   └── contact.css
 │   │
-│   ├── js/
-│   │   ├── main.js
-│   │   ├── catalog.js
-│   │   └── contact.js
-│   │
 │   └── images/
-│       ├── logo.png
-│       ├── hero-background.jpg
-│       ├── products/
-│       │   ├── product1.jpg
-│       │   ├── product2.jpg
-│       │   └── ...
-│       └── icons/
-│           ├── cart.svg
-│           └── ...
 │
 ├── home/
 │   └── index.html
@@ -74,11 +59,7 @@ petshop/
    ```bash
    cd proyecto-html-css-silicon-2025
 
-3. **Acceder a la carpeta del proyecto:**:
-   ```bash
-   cd proyecto-html-css-silicon-2025
-
-4. **Acceder a carpeta de repositorio y abrir HTML en el navegador:**
+3. **Acceder a carpeta de repositorio y abrir HTML en el navegador:**
 
    - Haz click sobre `index.html` y verás el home para luego redirigirte a cada sección. 
    - O usar la extensión **Live Server** desde Visual Studio Code para mayor comodidad.
