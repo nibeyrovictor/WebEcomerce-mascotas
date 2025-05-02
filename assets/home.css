@@ -2,7 +2,7 @@
 
 /* Sección Hero */
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.jpg');
     background-size: cover;
     background-position: center;
     min-height: 600px;
