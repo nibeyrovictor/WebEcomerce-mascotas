@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - PetShop</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/contact.css">
+</head>
+<body>
+    <!-- Header y navegación -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <span class="logo-icon">🐾</span>
+                <h1>PetShop</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../home/index.html">Inicio</a></li>
+                    <li><a href="../catalog/index.html">Catálogo</a></li>
+                    <li><a href="index.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                🛒
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Encabezado de contacto -->
+    <section id="contact-header">
+        <div class="container">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte. No dudes en enviarnos tus preguntas, comentarios o sugerencias.</p>
+        </div>
+    </section>
+
+    <!-- Formulario de contacto e información -->
+    <section>
+        <div class="container">
+            <div class="contact-container">
+                <!-- Formulario -->
+                <div class="contact-form">
+                    <h2>Envíanos un mensaje</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono (opcional)</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="question">Pregunta sobre un producto</option>
+                                <option value="order">Consulta sobre un pedido</option>
+                                <option value="return">Devolución o cambio</option>
+                                <option value="suggestion">Sugerencia</option>
+                                <option value="other">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar mensaje</button>
+                    </form>
+                </div>
+
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <h2>Información de contacto</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Dirección</h3>
+                            <p>Av. Uruguay 000<br>Posadas Misiones, CP 3300</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Teléfono</h3>
+                            <p>(+54) 9 3764 40-0000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>Correo electrónico</h3>
+                            <p>gonzalogomezprojects@gmail.com</p>
+                            <p>nibeyrovictoralberto@gmail.com</p>
+                            <p>francoc16e@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <h3>Horario de atención</h3>
+                            <p>Lunes a Viernes: 9:00 AM - 6:00 PM<br>
+                            Sábados: 10:00 AM - 3:00 PM<br>
+                            Domingos: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mapa -->
+            <div class="map">
+                <!-- Aquí iría un iframe con Google Maps, por ahora un placeholder -->
+                <p>Mapa de ubicación de la tienda</p>
+            </div>
+
+            <!-- Preguntas frecuentes -->
+            <div class="faq-section">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">¿Cuáles son los métodos de pago aceptados?</div>
+                    <div class="faq-answer">
+                        <p>Aceptamos tarjetas de crédito y débito (Visa, Mastercard, American Express), PayPal, transferencia bancaria y pago contra entrega en algunas zonas.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">¿Cuál es el tiempo de entrega?</div>
+                    <div class="faq-answer">
+                        <p>El tiempo de entrega varía según tu ubicación. En áreas metropolitanas, generalmente de 24 a 48 horas. Para zonas rurales o alejadas, puede tomar hasta 5 días hábiles.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">¿Tienen política de devoluciones?</div>
+                    <div class="faq-answer">
+                        <p>Sí, aceptamos devoluciones dentro de los 30 días posteriores a la compra siempre que el producto esté en su empaque original y sin usar. Para alimentos, solo aceptamos devoluciones si el empaque está sellado.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">¿Ofrecen envío gratuito?</div>
+                    <div class="faq-answer">
+                        <p>Sí, ofrecemos envío gratuito en pedidos superiores a $500. Para pedidos menores, el costo de envío se calcula según tu ubicación y se muestra antes de finalizar la compra.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">¿Tienen tienda física?</div>
+                    <div class="faq-answer">
+                        <p>Sí, nuestra tienda física está ubicada en Av. Uruguay 000, Posadas Misiones. Te invitamos a visitarnos durante nuestro horario de atención.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>PetShop</h3>
+                    <p>Tu tienda de confianza para productos de mascotas de alta calidad. Hacemos que la vida de tu mascota sea más feliz y saludable.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📱</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="../home/index.html">Inicio</a></li>
+                        <li><a href="../catalog/index.html">Catálogo</a></li>
+                        <li><a href="index.html">Contacto</a></li>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="../catalog/index.html">Alimentos para perros</a></li>
+                        <li><a href="../catalog/index.html">Alimentos para gatos</a></li>
+                        <li><a href="../catalog/index.html">Juguetes para perros</a></li>
+                        <li><a href="../catalog/index.html">Juguetes para gatos</a></li>
+                        <li><a href="../catalog/index.html">Accesorios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>📍 Av. Uruguay 000, Posadas Misiones</li>
+                        <li>✉️ gonzalogomezprojects@gmail.com</li>
+                        <li>✉️ nibeyrovictoralberto@gmail.com</li>
+                        <li>✉️ francoc16e@gmail.com</li>
+                        <li>📞 (+54) 9 3764 40-0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PetShop. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
