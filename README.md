@@ -10,7 +10,7 @@ Proyecto académico grupal
 
 ## 👨‍💻 Integrantes del equipo
 
-- **Victor Alberto Nibeyro**
+- **Victor Alberto Nibeyro** 
 - **Franco Castro**
 - **Gonzalo Gómez**
 
@@ -53,11 +53,11 @@ petshop/
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/usuario/proyecto-html-css-silicon-2025.git
+   git clone https://github.com/nibeyrovictor/WebEcomerce-mascotas.git
 
 2. **Acceder a la carpeta del proyecto:**:
    ```bash
-   cd proyecto-html-css-silicon-2025
+   cd WebEcomerce-mascotas
 
 3. **Acceder a carpeta de repositorio y abrir HTML en el navegador:**
 
@@ -83,5 +83,9 @@ Si querés mejorar el código, proponer cambios o agregar nuevas funcionalidades
 ---
 
 💡 No dudes en contactarnos si tenés dudas o sugerencias.
+
+   ✉️ gonzalogomezprojects@gmail.com
+   ✉️ nibeyrovictoralberto@gmail.com
+   ✉️ francoc16e@gmail.com
 
 ¡Gracias por tu interés y buen código! 💻🚀
